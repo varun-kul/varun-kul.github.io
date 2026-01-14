@@ -1,3 +1,4 @@
+<!--
 ---
 layout: default
 ---
@@ -138,3 +139,4 @@ I am a Data Science graduate student at the University of Texas at Arlington wit
 **B.E. in Electronics & Telecommunications (Honors in AI/ML)** (Jun 2024)
 *Savitribai Phule Pune University*
 </div>
+-->
