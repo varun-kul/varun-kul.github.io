@@ -1,20 +1,20 @@
-# # Site Title & Theme
-# title: Varun Kulkarni | Data Science Portfolio
+# # # Site Title & Theme
+# # title: Varun Kulkarni | Data Science Portfolio
+# # theme: jekyll-theme-architect
+
+# # # Site Description (for search engines)
+# # description: Portfolio for Varun Kulkarni, a Data Science graduate student at UT Arlington specializing in AI, Computer Vision, and Machine Learning.
+
+# # Site Title (shows up big in the sidebar)
+# title: Varun Kulkarni
+
+# # Site Description (shows up under the title)
+# description: >- # this multiline style is cleaner
+#   M.S. in Data Science @ UT Arlington. 
+#   Specializing in AI, Computer Vision, and Machine Learning.
+#   <br><br>
+#   <a href="https://linkedin.com/varunkul">LinkedIn</a> | 
+#   <a href="YOUR-LINK-TO-RESUME.pdf">Download Resume</a>
+
+# # Theme
 # theme: jekyll-theme-architect
-
-# # Site Description (for search engines)
-# description: Portfolio for Varun Kulkarni, a Data Science graduate student at UT Arlington specializing in AI, Computer Vision, and Machine Learning.
-
-# Site Title (shows up big in the sidebar)
-title: Varun Kulkarni
-
-# Site Description (shows up under the title)
-description: >- # this multiline style is cleaner
-  M.S. in Data Science @ UT Arlington. 
-  Specializing in AI, Computer Vision, and Machine Learning.
-  <br><br>
-  <a href="https://linkedin.com/varunkul">LinkedIn</a> | 
-  <a href="YOUR-LINK-TO-RESUME.pdf">Download Resume</a>
-
-# Theme
-theme: jekyll-theme-architect
