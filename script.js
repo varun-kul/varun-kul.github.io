@@ -9,6 +9,15 @@ const portfolioData = {
 
     // Experience Section
     experience: [
+       {
+            role: "Research Assistant",
+            company: "SEAR Lab University of Texas at Arlington | Arlington, TX",
+            date: "Jan 2025 - Present",
+            desc: [
+                "Analyzing tax revenue per acre for all lots in Tarrant County to identify high-tax and high-value properties.",
+                "Developing heatmaps using ArcGIS Pro for spatial analysis of property tax distribution.",
+            ]
+        },
         {
             role: "AI and Data Intern",
             company: "Skillreal USA | Livonia, MI",
@@ -46,22 +55,22 @@ const portfolioData = {
             title: "VoiceGuard - AI Deepfake Detection",
             description: "AI-powered voice spoofing detection system using MFCC features and Wav2vec-CNN model. Achieved 95% accuracy in identifying synthesized audio with <150ms inference time.",
             tech: ["Python", "PyTorch", "ONNX", "Audio Processing"],
-            link: "#" // Add your GitHub link here
+            link: "https://huggingface.co/spaces/varunkul/Voice-guard" // Add your GitHub link here
         },
         {
             title: "Real-Time ANPR System",
             description: "Automatic Number Plate Recognition system using YOLO and Tesseract OCR. Achieved >95% accuracy across diverse lighting conditions.",
             tech: ["YOLO", "OpenCV", "OCR", "Computer Vision"],
-            link: "#"
+            link: "https://github.com/varun-kul/automatic-license-plate-detector"
         },
         {
             title: "Intelligent Scheduling System",
             description: "Publication (IEEE, Jan 2025): Development and impact of an intelligent scheduling system for educational institutions.",
             tech: ["Optimization", "Algorithms", "Research"],
-            link: "#"
+            link: "https://github.com/varun-kul/IntelligentSchedulingSystem"
         },
         {
-            title: "Inspection Dashboard",
+            title: "Inspection Dashboard (Internship Project)",
             description: "Interactive dashboard for JSON-based data visualization for Skillreal USA, improving inspection workflows.",
             tech: ["Plotly", "Jupyter", "Data Viz"],
             link: "#"
