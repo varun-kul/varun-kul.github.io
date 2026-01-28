@@ -81,3 +81,59 @@ footer p { color: #777; margin-bottom: 30px; }
     .nav-links { display: none; }
     .hamburger { display: block; }
 }
+
+/* ===========================
+   Stats Cards Styling
+   =========================== */
+
+.stats-box {
+    display: flex;               /* Makes items horizontal */
+    gap: 20px;                   /* Space between cards */
+    justify-content: center;     /* Centers them */
+    margin-top: 40px;
+    flex-wrap: wrap;             /* Allows wrapping on smaller screens */
+}
+
+.stat {
+    background: var(--card-bg);  /* Dark card background */
+    padding: 30px 20px;
+    border-radius: 16px;         /* Rounded corners */
+    border: 1px solid var(--border);
+    text-align: center;
+    flex: 1;                     /* Makes all cards equal width */
+    min-width: 200px;            /* Minimum width for readability */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Effect */
+.stat:hover {
+    transform: translateY(-8px); /* Moves up slightly */
+    border-color: var(--accent-color); /* Blue border on hover */
+    background: var(--card-hover);
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.15); /* Soft glow */
+}
+
+/* Number Styling (e.g., 95%) */
+.stat h3 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+/* Text Styling (e.g., Model Accuracy) */
+.stat p {
+    font-size: 1rem;
+    color: #ccc;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* Mobile Responsiveness: Stack cards vertically on phones */
+@media (max-width: 768px) {
+    .stats-box {
+        flex-direction: column;
+    }
+}
