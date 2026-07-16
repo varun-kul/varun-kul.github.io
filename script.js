@@ -10,12 +10,12 @@ const portfolioData = {
     // Experience Section
     experience: [
        {
-            role: "Research Assistant",
+            role: "Research Associate",
             company: "SEAR Lab University of Texas at Arlington | Arlington, TX",
             date: "Jan 2025 - Present",
             desc: [
-                "Analyzing tax revenue per acre for all lots in Tarrant County to identify high-tax and high-value properties.",
-                "Developing heatmaps using ArcGIS Pro for spatial analysis of property tax distribution.",
+                "Co-building a UAV inspection platform with a UTA professor, combining flight controller hardware, autonomous waypoint navigation, and real-time defect detection.",
+                "Diagnosed accelerometer/gyroscope calibration drift as the true root cause of drone instability that the team had initially attributed to weight distribution — restored stable flight through signal-level correction rather than mechanical rebalancing.",
             ]
         },
         {
@@ -52,16 +52,40 @@ const portfolioData = {
     // Projects Section
     projects: [
         {
+            title: "Intelligent Inspection Drone",
+            description: "Developed an autonomous waypoint-flight UAV system with real-time crack detection ($mAP_{50} = 0.723$ on a custom dataset), featuring a custom UE4 simulation environment, automated image logging, and interactive Folium inspection reports.",
+            tech: ["Python", "AirSim", "Yolo", "UE Engine"],
+            link: "https://github.com/varun-kul/drone-inspection" // Add your GitHub link here
+        },
+        {
+            title: "SWaT LSTM Autoencoder",
+            description: "Engineered and deployed an LSTM autoencoder API (FastAPI, Docker, Render) for False Data Injection attack detection on the SWaT dataset, achieving an F1-score of 0.9928 and a 1.0 Recall rate.",
+            tech: ["Python", "PyTorch", "FastAPI", "Docker"],
+            link: "https://github.com/varun-kul/swat-fdi-detection" // Add your GitHub link here
+        },
+        {
             title: "VoiceGuard - AI Deepfake Detection",
             description: "AI-powered voice spoofing detection system using MFCC features and Wav2vec-CNN model. Achieved 95% accuracy in identifying synthesized audio with <150ms inference time.",
             tech: ["Python", "PyTorch", "ONNX", "Audio Processing"],
             link: "https://huggingface.co/spaces/varunkul/Voice-guard" // Add your GitHub link here
         },
         {
+            title: "SOC Log Analyzer",
+            description: "Built and deployed a full-stack security log analysis tool (Railway/Vercel) featuring a RAG pipeline with the Anthropic API for natural-language log querying as a technical assessment.",
+            tech: ["Python", "TypeScirpt", "FastAPI", "PostgreSQL"],
+            link: "https://github.com/varun-kul/SOC-Log-Analyzer" // Add your GitHub link here
+        },
+        {
             title: "Real-Time ANPR System",
             description: "Automatic Number Plate Recognition system using YOLO and Tesseract OCR. Achieved >95% accuracy across diverse lighting conditions.",
             tech: ["YOLO", "OpenCV", "OCR", "Computer Vision"],
             link: "https://github.com/varun-kul/automatic-license-plate-detector"
+        },
+        {
+            title: "Dynamic Multi-Echelon Inventory & Pricing Engine",
+            description: "Engineered a 6-phase demand forecasting and multi-echelon inventory optimization pipeline for 198 SKUs (M5 dataset) using ARIMA, Croston, Prophet, and LSTM models with Clark-Scarf Monte Carlo simulations, deployed via Streamlit.",
+            tech: ["Python", "ARIMA", "LSTM", "Prophet"],
+            link: "https://github.com/varun-kul/Dynamic-Multi-Echelon-Inventory-Pricing-Engine" // Add your GitHub link here
         },
         {
             title: "Intelligent Scheduling System",
@@ -79,10 +103,15 @@ const portfolioData = {
 
     // Skills Section
     skills: {
-        "Languages": ["Python", "C++", "C", "SQL", "MATLAB"],
-        "AI / ML": ["PyTorch", "Scikit-learn", "LangChain", "RAG", "Stable Diffusion", "OpenCV"],
+        "Languages": ["Python", "C++", "MATLAB", "SQL"]
+        "ML/DL": ["PyTorch", "TensorFlow", "YOLO", "LSTM/Autoencoders", "Wav2Vec2", "ONNX", "Scikit-learn"]
+        "Computer Vision & Robotics": ["AirSim", "Unreal Engine", "ROS concepts", "flight controller/ESC integration", "SLAM-adjacent autonomy", "EasyOCR", "SORT tracking"]
+        "Time Series & Forecasting": ["ARIMA", "Prophet", "Croston", "Clark-Scarf optimization", "Monte Carlo simulation"]
+        "LLM/GenAI": ["LangChain", "RAG pipelines", "Anthropic/OpenAI APIs", "Stable Diffusion"]
+        "Infrastructure & Deployment": ["FastAPI", "Docker", "Render", "Railway", "Vercel", "Streamlit", "React/TypeScript", "PostgreSQL"]
         "Data Tools": ["PostgreSQL", "MySQL", "Power BI", "Tableau", "Git", "Jupyter"],
         "Specialized": ["GIS Analysis", "DSP", "Audio Processing", "sEMG Signal Processing"]
+        "Hardware": ["FPV drone build & tuning", "flight controller/ESC selection and replacement"]
     }
 };
 
