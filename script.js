@@ -103,14 +103,14 @@ const portfolioData = {
 
     // Skills Section
     skills: {
-        "Languages": ["Python", "C++", "MATLAB", "SQL"]
-        "ML/DL": ["PyTorch", "TensorFlow", "YOLO", "LSTM/Autoencoders", "Wav2Vec2", "ONNX", "Scikit-learn"]
-        "Computer Vision & Robotics": ["AirSim", "Unreal Engine", "ROS concepts", "flight controller/ESC integration", "SLAM-adjacent autonomy", "EasyOCR", "SORT tracking"]
-        "Time Series & Forecasting": ["ARIMA", "Prophet", "Croston", "Clark-Scarf optimization", "Monte Carlo simulation"]
-        "LLM/GenAI": ["LangChain", "RAG pipelines", "Anthropic/OpenAI APIs", "Stable Diffusion"]
-        "Infrastructure & Deployment": ["FastAPI", "Docker", "Render", "Railway", "Vercel", "Streamlit", "React/TypeScript", "PostgreSQL"]
+        "Languages": ["Python", "C++", "MATLAB", "SQL"],
+        "ML/DL": ["PyTorch", "TensorFlow", "YOLO", "LSTM/Autoencoders", "Wav2Vec2", "ONNX", "Scikit-learn"],
+        "Computer Vision & Robotics": ["AirSim", "Unreal Engine", "ROS concepts", "flight controller/ESC integration", "SLAM-adjacent autonomy", "EasyOCR", "SORT tracking"],
+        "Time Series & Forecasting": ["ARIMA", "Prophet", "Croston", "Clark-Scarf optimization", "Monte Carlo simulation"],
+        "LLM/GenAI": ["LangChain", "RAG pipelines", "Anthropic/OpenAI APIs", "Stable Diffusion"],
+        "Infrastructure & Deployment": ["FastAPI", "Docker", "Render", "Railway", "Vercel", "Streamlit", "React/TypeScript", "PostgreSQL"],
         "Data Tools": ["PostgreSQL", "MySQL", "Power BI", "Tableau", "Git", "Jupyter"],
-        "Specialized": ["GIS Analysis", "DSP", "Audio Processing", "sEMG Signal Processing"]
+        "Specialized": ["GIS Analysis", "DSP", "Audio Processing", "sEMG Signal Processing"],
         "Hardware": ["FPV drone build & tuning", "flight controller/ESC selection and replacement"]
     }
 };
